@@ -226,11 +226,13 @@
   outline: none;
   font-variant-numeric: tabular-nums;
   transition: border-color 0.15s ease, background-color 0.15s ease;
+  color: #000000
 }
 
 .numeric-input:focus {
   background-color: #ffffff;
   border-color: #000000;
+  color: #000000;
 }
 
 /* Stepper */
@@ -350,6 +352,7 @@
   font-size: 18px;
   font-weight: 700;
   margin: 0 0 4px 0;
+  color:#000000;
 }
 
 .message-box {
